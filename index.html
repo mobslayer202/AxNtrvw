@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ApixioInterview</title>
+
+        <style>
+            table {
+                border: solid black 2px
+            }
+            th {
+                border: solid green 2px
+            }
+            td {
+                border: solid red 2px
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <div id = "customer">
+            <table>
+                <caption>Customer List</caption>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Birthday</th>
+                        <th>Fav Color</th>
+                        <th>Pet(s)</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+
+        <div id = "pet">
+            <button id = "sortName">Sort by Name</button>
+            <button id = "sortType">Sort by Type</button>
+            <table>
+                <caption>Pet List</caption>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Type</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+            <input id = "searchBar" type = "text" placeholder = "Search...">
+            <button id = "searchOp">Name</button>
+        </div>
+
+        <dialog id = "result">
+            <table>
+
+            </table>
+        </dialog>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
